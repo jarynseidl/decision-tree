@@ -14,6 +14,11 @@ public class Node {
 	private Attribute _attribute;
 	private int _nodeID;
 	
+	public Node(){}
+	
+	public void addBranch(int value, Node node){
+		
+	}
 	public Node (int nodeCounter) {
 		_label = new Label();
 		_branches = new LinkedHashMap<Double, Node>();
